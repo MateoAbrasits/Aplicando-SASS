@@ -1,0 +1,34 @@
+$largo_img1:650px;
+$alto_img1:300px;
+
+$largo_img2:450px;
+$alto_img2:200px;
+
+$largo_img3:800px;
+$alto_img3:750px;
+
+
+div{
+
+display: flex;
+flex-direction: column;
+align-items: center;
+margin: 20px auto;
+
+
+    .img1{
+            width: $largo_img1;
+            height: $alto_img1;
+            padding: 20px;
+    }
+    .img2{
+            width: $largo_img2;
+            height: $alto_img2;
+            padding: 20px;
+    }
+    .img3{
+            width: $largo_img3 ;
+            height: $alto_img3 ;
+            padding: 20px;
+    }
+}
